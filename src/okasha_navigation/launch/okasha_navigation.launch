@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+<!--Map server-->
+
+<node name="map_server" pkg="map_server" type="map_server" args="$(find okasha_navigation)/maps/slam_gmapping.yaml"/>
+
+<!--AMCL-->
+
+<include file="$(find okasha_navigation)/launch/amcl.launch"/>
+
+<!--Move base-->
+
+<include file="$(find okasha_navigation)/launch/move_base.launch"/>
+
+
+ <arg name="open_rviz" default="true"/>
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find okasha_navigation)/rviz/rviz_configs.rviz"/>
+  </group>
+
+</launch>

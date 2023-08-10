@@ -1,0 +1,9 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: chasis
+
+  update_frequency: 6.5
+  publish_frequency: 6.5
+  transform_tolerance: 0.1538
+
+  static_map: true
