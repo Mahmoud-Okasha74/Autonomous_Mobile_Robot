@@ -44,6 +44,6 @@ roslaunch okasha_navigation okasha_navigation.launch
 
 ## Autonomous_Mobile_Robot video
 
-[![Autonomous Mobile Robot](navigation.png)](https://youtu.be/IF3Fd8DPQEA)
+[Autonomous Mobile Robot video](https://youtu.be/IF3Fd8DPQEA)
 
 
