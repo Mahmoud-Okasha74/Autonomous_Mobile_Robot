@@ -14,7 +14,7 @@ Furthermore, the robot's navigation capabilities are powered by a comprehensive 
 ## Getting started 
 ```
 cd catkin_ws/src
-git clone https://github.com/your-username/autonomous_robot.git
+git clone https://github.com/Mahmoud-Okasha74/Autonomous_Mobile_Robot.git
 git clone https://github.com/ros-perception/slam_gmapping.git
 git clone https://github.com/ros-planning/navigation.git
 cd ..
