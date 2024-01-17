@@ -1,4 +1,4 @@
-# Autonomous_Mobile_Robot
+# Autonomous Mobile Robot
 ## Descreption 
 This autonomous mobile robot design was built using the Unified Robot Description Format (URDF) and it utilizes a skid steer drive system.
 
